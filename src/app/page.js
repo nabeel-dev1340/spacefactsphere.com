@@ -278,9 +278,6 @@ const SpaceFactsPage = () => {
             muted
             playsInline
             className="absolute top-0 left-0 w-full h-full object-cover transform scale-105 transition-transform duration-1000"
-            style={{
-              transform: `scale(${1 + window.scrollY * 0.0002})`,
-            }}
           >
             <source src="/background/astronaut_waving.mp4" type="video/mp4" />
           </video>
